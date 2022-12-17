@@ -1,2 +1,2 @@
-# Multithreading-client-server-in-python
-Socket programming server-client application using threads
+# Multithreading Client Server In Python
+Socket programming Server Client Application Using Threads
