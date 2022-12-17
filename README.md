@@ -73,7 +73,7 @@ if msg_length:
     print(f"[{addr}] {msg}")
 conn.send("Msg received".encode(FORMAT))
 ```
-![msgReceived](./images/StartingClientMsg.png)
+
 
 ### Start Server Function
 
@@ -95,7 +95,7 @@ print(f"[ACTIVE CONNECTIONS] {threading.activeCount() - 1}")
 ```
 Print active connections, just so we can see that. Always one connection running, so do - 1 to show connections minus the one running.
 
-![servestartingmessage](./images/ServerStartingMessage.png)
+
 
 ## Client.py
 
@@ -138,7 +138,7 @@ Sending something that isn't a string, like an object, can send messages that ar
 # Running This Script
 By starting the server, (run `server.py`) you should be able to open multiple command line tabs (clients) and run client.py, thus creating new threads. You should also be able to run the client scripts on a different computer (same local IP address) and be able to access the server and open a connection! Just print out a different message and send it through the socket.
 
-![finalf](./images/FinalF.png)
+
 
 ## Globally
 To make this work on your public IP address (*the internet*), go to google and search for your public IP address, then in your `SERVER` script, change the address to be your public IP. This however could be more problematic with firewalls, *also security*.
