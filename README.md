@@ -18,9 +18,6 @@ SERVER = " "
 SERVER = socket.gethostbyname(socket.gethostname())
 ```
 
-For Mac user, type `ifconfig` in the terminal and will show `inet` (your local IP address).
-Another way to get the local IP address automatically is the second script.
-
 ### Other Scripts
 
 ```py
